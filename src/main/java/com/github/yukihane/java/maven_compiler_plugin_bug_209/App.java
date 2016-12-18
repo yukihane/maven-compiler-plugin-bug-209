@@ -6,6 +6,6 @@ package com.github.yukihane.java.maven_compiler_plugin_bug_209;
 public class App {
 
     public static void main(final String[] args) {
-        System.out.println("Hello World!");
+        System.out.println(new MyLib().sayHello());
     }
 }
